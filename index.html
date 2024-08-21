@@ -21,8 +21,30 @@
 <body class="font-roboto">
     <header class="bg-[#FFFBF0] pl-4">
         <!-- nav bar start -->
-        <nav>
+        <nav class="flex justify-between mx-28 py-5 px-10">
+            <!-- navbar logo -->
+            <div>
+                <img  class="w-56" src="./icons/logo.png" alt="logo">
+            </div>
+            <!-- navbar link -->
+            <div class="font-roboto text-[#3C3C3C]  font-medium">
+                <ul class="flex gap-x-12">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Product</a>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Contuct</a>
+                    </li>
+                </ul>
 
+            </div>
+            
         </nav>
         <!-- banner start -->
         <div class="md:flex md:items-center md:justify-around">
@@ -49,7 +71,7 @@
         </div>
     </header>
 
-    <main class="max-w-5xl  mx-auto ">
+    <main class="max-w-5xl  mx-auto bg-[#FFFFFF] ">
         <!-- women Jacket Section -->
          <section class="my-12 ">
             <h3 class="text-5xl text-[#363958] font-bebas-neue ">WOMEN JACKET</h3>
@@ -147,7 +169,7 @@
                             </div>
                          </div>
                           <!-- jacket catrd 3 -->
-                          <div class="p-5  space-y-4 rounded-3xl drop-shadow-lg">
+                          <div class="p-5  space-y-4 rounded-3xl drop-shadow-md">
                             <img class="p-5 rounded-3xl bg-[#F1F1F1]" src="./images/jacket-6.png" alt="jacket-3">
                             <h4 class="text-2xl font-bold">Man Casual Jackets</h4>
                             <p>Lorem Ipsum is simply dummy text of the 
@@ -168,7 +190,45 @@
                  </section>
 
     </main>
-    <footer>
+    <footer class=" flex px-28 justify-around bg-[#FFFFFF]">
+        <!-- footer text -->
+        <div class="font-roboto "> 
+            <div class="flex w-96 mt-4 shadow-md p-6 rounded-2xl justify-between " >
+                <div class="" >
+                    <img class="max-w-16 max-h-16  " src="./icons/house.png" alt="">
+                </div>
+                <div>
+                    <h3 class="font-bold text-[#363958]">Find the perfect Fit</h3>
+                    <p class="font-normal text-[#3E3E3E]">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="flex w-96 shadow-md  mt-4 p-6 rounded-2xl">
+                <div>
+                    <img class="max-w-16 max-h-16 " src="./icons/box.png" alt="">
+                </div>
+                <div>
+                    <h3 class="font-bold text-[#363958]">Find the perfect Fit</h3>
+                    <p class="font-normal text-[#3E3E3E]">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="flex w-96 shadow-md mt-4 p-6 rounded-2xl justify-stretch">
+                <div>
+                    <img class="max-w-16 max-h-16 " src="./icons/question.png" alt="">
+                </div>
+                <div>
+                    <h3 class="font-bold text-[#363958]">Find the perfect Fit</h3>
+                    <p class="font-normal text-[#3E3E3E]">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- footer img -->
+         <div class=" w-1/2 p-10 ">
+            <img class="mt-20"  src="./images/shopping.png" alt="">
+         </div>
 
     </footer>
 </body>
